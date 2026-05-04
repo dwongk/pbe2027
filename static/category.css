@@ -1,0 +1,58 @@
+.animals { color: Goldenrod }
+.bodyparts { color: Orange }
+.directions { color: Violet }
+.distinct { color: DarkRed }
+.food { color: LimeGreen }
+.hitchcock { color: DarkBlue }
+.numbers { color: Turquoise }
+.objects { color: Gold }
+.people { color: Blue }
+.places { color: Coral }
+.reasons { color: Gray }
+.relations { color: DeepPink }
+.sayings { color: Sienna }
+.times { color: Teal }
+.weapons { color: Red }
+.which { color: Purple }
+.verse_ref { color: DodgerBlue }
+table, th, td { border: 1px solid black }
+th, td { padding: 4px }
+table { table-layout: fixed; width: 100%; border-collapse: collapse }
+
+/* ── Index page: accordion overrides ── */
+button.w3-btn-block { background: #000; color: #fff }
+button.w3-btn-block:hover { background: #333 }
+
+/* ── Index page: version nav bar ── */
+#version-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+#version-nav span { font-size: 0.85em; color: #555 }
+.toggle-pill {
+    display: inline-flex;
+    background: #e8e8e8;
+    border-radius: 999px;
+    padding: 3px;
+}
+.toggle-pill button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 4px 14px;
+    border-radius: 999px;
+    font-size: 0.85em;
+    color: #555;
+    transition: background 0.15s, color 0.15s;
+}
+.toggle-pill button.active {
+    background: #2c5f9e;
+    color: #fff;
+}
