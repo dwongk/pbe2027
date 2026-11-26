@@ -19,17 +19,19 @@
     <span>View:</span>
     <div class="toggle-pill">
         <button id="btn-expanded" onclick="window.location.href='index.html'">Expanded</button>
-        <button id="btn-condensed" class="active" onclick="window.location.href='condensed.html'">Condensed using AI</button>
+        <button id="btn-condensed" class="active" onclick="window.location.href='condensed.html'">In Context</button>
     </div>
     <a href="help.html" style="margin-left:1em;">Help</a>
 </div>
 
 <h1>PBE 2027</h1>
 
+<p>Expanded lists every matching word. In Context - made mainly for the numbers and times categories. It turns number words into figures, and it pulls in some of the surrounding words for context.</p>
+
 <div class="w3-container">
-<h2>Individual Books</h2>
+<h2>Individual Books <span class="w3-tooltip tip-icon" tabindex="0" aria-label="Tip: tap a book to see its categories">&#9432;<span class="w3-text tip-text">Tap a book to see its categories.</span></span></h2>
 <div class="w3-accordion w3-light-grey">
-<button onclick="myFunction('Mark')" class="w3-btn-block w3-left-align">Mark</button>
+<button onclick="myFunction('Mark')" class="w3-btn-block w3-left-align" title="Tap to see the categories">Mark (678 verses)</button>
 <div id="Mark" class="w3-accordion-content">
 <a href="condensed/Mark/_book.html">Mark</a>
 <a class="animals" href="condensed/Mark/animals.html">animals</a>
@@ -50,7 +52,7 @@
 <a class="weapons" href="condensed/Mark/weapons.html">weapons</a>
 <a class="which" href="condensed/Mark/which.html">which</a>
 </div>
-<button onclick="myFunction('1 Peter')" class="w3-btn-block w3-left-align">1 Peter</button>
+<button onclick="myFunction('1 Peter')" class="w3-btn-block w3-left-align" title="Tap to see the categories">1 Peter (105 verses)</button>
 <div id="1 Peter" class="w3-accordion-content">
 <a href="condensed/1%20Peter/_book.html">1 Peter</a>
 <a class="animals" href="condensed/1%20Peter/animals.html">animals</a>
@@ -71,7 +73,7 @@
 <a class="weapons" href="condensed/1%20Peter/weapons.html">weapons</a>
 <a class="which" href="condensed/1%20Peter/which.html">which</a>
 </div>
-<button onclick="myFunction('2 Peter')" class="w3-btn-block w3-left-align">2 Peter</button>
+<button onclick="myFunction('2 Peter')" class="w3-btn-block w3-left-align" title="Tap to see the categories">2 Peter (61 verses)</button>
 <div id="2 Peter" class="w3-accordion-content">
 <a href="condensed/2%20Peter/_book.html">2 Peter</a>
 <a class="animals" href="condensed/2%20Peter/animals.html">animals</a>
@@ -92,7 +94,7 @@
 <a class="weapons" href="condensed/2%20Peter/weapons.html">weapons</a>
 <a class="which" href="condensed/2%20Peter/which.html">which</a>
 </div>
-<button onclick="myFunction('1 John')" class="w3-btn-block w3-left-align">1 John</button>
+<button onclick="myFunction('1 John')" class="w3-btn-block w3-left-align" title="Tap to see the categories">1 John (105 verses)</button>
 <div id="1 John" class="w3-accordion-content">
 <a href="condensed/1%20John/_book.html">1 John</a>
 <a class="animals" href="condensed/1%20John/animals.html">animals</a>
@@ -113,7 +115,7 @@
 <a class="weapons" href="condensed/1%20John/weapons.html">weapons</a>
 <a class="which" href="condensed/1%20John/which.html">which</a>
 </div>
-<button onclick="myFunction('2 John')" class="w3-btn-block w3-left-align">2 John</button>
+<button onclick="myFunction('2 John')" class="w3-btn-block w3-left-align" title="Tap to see the categories">2 John (13 verses)</button>
 <div id="2 John" class="w3-accordion-content">
 <a href="condensed/2%20John/_book.html">2 John</a>
 <a class="animals" href="condensed/2%20John/animals.html">animals</a>
@@ -134,7 +136,7 @@
 <a class="weapons" href="condensed/2%20John/weapons.html">weapons</a>
 <a class="which" href="condensed/2%20John/which.html">which</a>
 </div>
-<button onclick="myFunction('3 John')" class="w3-btn-block w3-left-align">3 John</button>
+<button onclick="myFunction('3 John')" class="w3-btn-block w3-left-align" title="Tap to see the categories">3 John (14 verses)</button>
 <div id="3 John" class="w3-accordion-content">
 <a href="condensed/3%20John/_book.html">3 John</a>
 <a class="animals" href="condensed/3%20John/animals.html">animals</a>
@@ -157,9 +159,10 @@
 </div>
 </div>
 
-<h2>Combined Books by Divisions</h2>
+
+<h2>Combined Books by Divisions <span class="w3-tooltip tip-icon" tabindex="0" aria-label="Tip: tap a division to see its categories">&#9432;<span class="w3-text tip-text">Tap a division to see its categories.</span></span></h2>
 <div class="w3-accordion w3-light-grey">
-<button onclick="myFunction('PBE')" class="w3-btn-block w3-left-align">PBE</button>
+<button onclick="myFunction('PBE')" class="w3-btn-block w3-left-align" title="Tap to see the categories">PBE - Mark, 1 Peter, 2 Peter, 1 John, 2 John, 3 John</button>
 <div id="PBE" class="w3-accordion-content">
 <a href="condensed/PBE/_book.html">PBE</a>
 <a class="animals" href="condensed/PBE/animals.html">animals</a>
@@ -181,6 +184,7 @@
 <a class="which" href="condensed/PBE/which.html">which</a>
 </div>
 </div>
+
 
 </div>
 

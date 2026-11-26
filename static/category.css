@@ -56,3 +56,9 @@ button.w3-btn-block:hover { background: #333 }
     background: #2c5f9e;
     color: #fff;
 }
+
+/* Tip icon: the tip shows on hover, and on tap / keyboard focus too
+   (w3.css only shows it on hover). */
+.w3-tooltip:focus .w3-text { display: inline-block; }
+.tip-icon { cursor: help; color: #555; }
+.tip-text { position: absolute; left: 1.6em; top: -0.2em; z-index: 10; width: 17em; max-width: 70vw; background: #333; color: #fff; padding: 0.5em 0.7em; border-radius: 4px; font-size: 15px; line-height: 1.4; }
